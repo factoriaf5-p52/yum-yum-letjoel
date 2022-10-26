@@ -1,0 +1,98 @@
+
+/* --- FUENTES --- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* font-family: 'Lato',
+sans-serif; */
+
+/* Regular */
+/* font-weight:400; */
+
+/* Bold */
+/* font-weight:700; */
+
+/* Black */
+/* font-weight:900; */
+
+/* --- COLORES --- */
+
+#grid-wrapper {
+    background-color: #e2c7a2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+
+    grid-template-areas: "header header"
+                        "image image"
+                        "order order"
+                        "how how"
+                        "dishes dishes"
+                        "circles circles"
+                        "restaurant restaurant"
+                        "banner banner"
+                        "featured featured"
+                        "landing landing"
+                        "footer footer"
+}
+
+header {
+    background-color: #000;
+    grid-area: header;
+}
+.image {
+    background-color: #b30202;
+    grid-area: image;
+}
+.order {
+    background-color: #4cb302;
+    grid-area: order;
+}
+.how-it-works {
+    background-color: #bfc521;
+    grid-area: how;
+}
+.dishes {
+    background-color: #4a79c5;
+    grid-area: dishes;
+}
+.circles {
+    background-color: #d26bce;
+    grid-area: circles;
+}
+.restaurant-by-cuisine {
+    background-color: #37808d;
+    grid-area: restaurant;
+}
+.banner {
+    background-color: #b30202;
+    grid-area: banner;
+}
+.featured {
+    background-color: #f0760a;
+    grid-area: featured;
+}
+.landing-pages {
+    background-color: #ded718;
+    grid-area: landing;
+}
+footer {
+    background-color: #10b035;
+    grid-area: footer;
+}
+
+/* -- MOBILE -- */
+@media (max-width: 700px) { 
+    #grid-wrapper {    
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-areas: "header header"
+            "image order"
+            "how how"
+            "dishes dishes"
+            "circles circles"
+            "restaurant restaurant"
+            "banner banner"
+            "featured featured"
+            "landing landing"
+            "footer footer"
+        }
+}
