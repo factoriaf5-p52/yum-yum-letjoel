@@ -16,7 +16,7 @@ sans-serif; */
 
 /* --- COLOURS --- */
 
-/* GRAY #828282e6 */
+/* GRAY #999999 */
 
 body {
     background-color: #fff;
@@ -28,7 +28,7 @@ body p{
 #grid-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    /* grid-template-rows: repeat(11, 1fr); */
 
     grid-template-areas: "header header"
                         "image image"
@@ -44,8 +44,8 @@ body p{
 }
 
 header {
-    grid-area: header;
-
+    grid-area: header;      
+    max-height: 150px;  
 }
 header .header-wrap {
     height: 150px;
@@ -85,7 +85,7 @@ header .chart {
     filter: invert(50%);
 }
 header p{
-    color: #828282e6;
+    color: #999999;
     font-weight: 400;
     font-size: 1.1em;
 }
@@ -97,13 +97,11 @@ a:active {
 }
 
 .image {
-    background-color: #b30202;
     grid-area: image;
+    height: 350px;
+    width: 100%;
+    background-color: #999999;
 }
-.image img {
-    height:100px;
-}
-
 .order {
     background-color: #4cb302;
     grid-area: order;
@@ -144,7 +142,7 @@ footer {
 /* -- DESKTOP -- */
 @media (min-width: 700px) {
     #grid-wrapper {
-        grid-template-rows: repeat(10, 1fr);
+        /* grid-template-rows: repeat(10, 1fr); */
         grid-template-areas: "header header"
             "image order"
             "how how"
