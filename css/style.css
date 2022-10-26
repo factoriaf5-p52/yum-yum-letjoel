@@ -1,5 +1,5 @@
 
-/* --- FUENTES --- */
+/* --- FONTS --- */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 /* font-family: 'Lato',
@@ -14,10 +14,18 @@ sans-serif; */
 /* Black */
 /* font-weight:900; */
 
-/* --- COLORES --- */
+/* --- COLOURS --- */
+
+/* GRAY #828282e6 */
+
+body {
+    background-color: #fff;
+}
+body p{
+        font-family: 'Lato', sans-serif;
+}
 
 #grid-wrapper {
-    background-color: #e2c7a2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(11, 1fr);
@@ -36,13 +44,66 @@ sans-serif; */
 }
 
 header {
-    background-color: #000;
     grid-area: header;
+
 }
+header .header-wrap {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+header .header-logo {
+    width: 66%;
+    padding-left:20px;
+    line-height: 25px;
+}
+header .header-menu-chart {
+    width: 33%;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:20px;
+}
+
+header  .logo {
+    height: 2rem;
+}
+
+header .menu {
+    padding-right: 10px;
+    width: 2.7rem;
+    filter: invert(50%);
+}
+header .chart {
+    width: 2.5rem;
+    filter: invert(50%);
+}
+header p{
+    color: #828282e6;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+header a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
 .image {
     background-color: #b30202;
     grid-area: image;
 }
+.image img {
+    height:100px;
+}
+
 .order {
     background-color: #4cb302;
     grid-area: order;
@@ -80,9 +141,9 @@ footer {
     grid-area: footer;
 }
 
-/* -- MOBILE -- */
-@media (max-width: 700px) { 
-    #grid-wrapper {    
+/* -- DESKTOP -- */
+@media (min-width: 700px) {
+    #grid-wrapper {
         grid-template-rows: repeat(10, 1fr);
         grid-template-areas: "header header"
             "image order"
