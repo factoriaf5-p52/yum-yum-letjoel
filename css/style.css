@@ -18,13 +18,15 @@ sans-serif; */
 
 /* GRAY #999999 */
 /* VERDE GRADIENTE #74cc52 */
-/* c0da38 */
+/* AMARILLO GRADIENTE #c0da38 */
+/* NARANJA BOTON #fa7344 */
 
 body {
     background-color: #fff;
+    /* min-width: 378px; */
 }
 body p{
-        font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #grid-wrapper {
@@ -106,7 +108,6 @@ a:active {
 }
 .order {
     grid-area: order;
-    height: 550px;
     width: 100%;
     background: rgb(116, 204, 82);
     background: linear-gradient(0deg, rgba(116, 204, 82, 1) 0%, rgba(192, 218, 56, 1) 78%);
@@ -115,61 +116,76 @@ a:active {
     justify-content: center;
     align-items: center;
     }
-.order h1 {
-    text-align: center;
+.order-h1 {
+    padding: 20px 0 20px 30px;
     font-family: "Intro";
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #fff;
+    line-height: 3rem;
 }
 .order .form-wrap{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 85%;
+}
+.order .pin {
+    height: 20px;
+    filter: invert(71%) sepia(77%) saturate(4346%) hue-rotate(333deg) brightness(102%) contrast(96%);
+}
+.order .bbq {
+    height: 25px;
+    filter: invert(71%) sepia(77%) saturate(4346%) hue-rotate(333deg) brightness(102%) contrast(96%);
 }
 .order input{
-    height: 50px;
     border: solid 1px transparent;
+}
+.order input::placeholder {
+    opacity: .9;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 .fields {
     width: 80%;
+    margin-left: 20px;
 }
 .field1 {
-    padding-left: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
     background-color: #fff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: solid 0.05rem #dcdbdb;
+    border-bottom: solid 0.1rem #dcdbdb;
 }
 .field2 {
-    padding-left: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
     background-color: #fff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-/* Placeholder hack */
-::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #999999;
-    /* font-family: 'Lato', sans-serif; */
-}
-::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #999999;
-    /* font-family: 'Lato', sans-serif; */
-}
-:-ms-input-placeholder {
-    /* IE 10+ */
-    color: #999999;
-    /* font-family: 'Lato', sans-serif; */
-}
-:-moz-placeholder {
-    /* Firefox 18- */
-    color: #999999;
-    /* font-family: 'Lato', sans-serif; */
+.findButton {
+    height: 65px;
+    width: 66%;
+    border-radius: 5px;
+    background-color: #fa7344;
+    color: white;
+    font-family: 'intro';
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .how-it-works {
-    background-color: #bfc521;
+    background-color: #fff;
     grid-area: how;
 }
 .dishes {
