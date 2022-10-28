@@ -20,6 +20,7 @@ sans-serif; */
 /* VERDE GRADIENTE #74cc52 */
 /* AMARILLO GRADIENTE #c0da38 */
 /* NARANJA BOTON #fa7344 */
+/* NEGRO GRISACEO #474e48 */
 
 body {
     background-color: #fff;
@@ -189,40 +190,77 @@ a:active {
     grid-area: how;
     display: flex;
     flex-direction: column;
+    padding: 21px 22px 21px 21px;
+    margin-top: 30px;
+
 }
 .how-h1 {
     font-family: "Intro";
-        font-weight: 900;
-        font-size: 2.5rem;
-        color: #fa7344;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fa7344;
+    padding-bottom: 90px;
 }
 .how-cards {
     display: flex;
     flex-direction: column;
+    gap: 55px;
 }
 .how-card {
     display: flex;
     flex-direction: row;
+    height: 150px;
     
 }
 .how-card-img img{
-    height: 40px;
+    height: 90px;
+    padding-right: 30px;
+
+}
+.how-card-img-clip {
+    position: relative;
+    top: -10px;
+}
+.how-card-img-outline img{
+    filter: drop-shadow(0.2rem 0 0 #f0ecea) drop-shadow(-0.2rem 0 0 #f0ecea) drop-shadow(0 0.1rem 0 #f0ecea) drop-shadow(0 -0.1rem 0 #f0ecea);
 }
 .how-card-article {
-
+    padding-left: 2px;
+}
+.how-card-article-head {
+    display: flex;
+    align-items:baseline;
+    height: 30px;
+    padding-bottom: 10px;
 }
 .how-card-article-h2 {
-
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #474e48;
+    
 }
 .how-card-article-h2-2 {
-
+    font-family: "Intro";
+    font-weight: 900;
+    font-size: 1.5rem;
+    color:#474e48;
+    padding-left: 10px;
 }
 .how-card-article-p {
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 1.5rem;
+    /* text-align: justify; */
+    word-break: break-all;
 
 }
 
 .dishes {
-    background-color: #4a79c5;
+    background-color: #F5F5EB;
     grid-area: dishes;
 }
 .circles {
