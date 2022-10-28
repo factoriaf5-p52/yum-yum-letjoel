@@ -263,6 +263,71 @@ a:active {
     background-color: #F5F5EB;
     grid-area: dishes;
 }
+.dishes-h1 {
+    font-family: "Intro";
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #fa7344;
+    padding-bottom: 90px;
+}
+.dishes-cards {
+
+}
+.dishes-card {
+
+}
+.dishes-card-img {
+
+    width: 100%;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px;
+}
+.dishes-card-article {
+    background-color: #fff;
+}
+.dishes-card-article-h {
+
+}
+.dishes-card-article-p {
+
+}
+.dishes-card-price-buy {
+background-color: #fff;
+}
+.dishes-card-price {
+
+}
+.dishes-card-button {
+
+}
+.dishes-card-stars-ratings {
+    background-color: #fff;
+    border-top: solid 3px #F5F5EB;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.dishes-card-stars {
+      height: 80px;
+    width: 150px;
+    background-size: 18px 18px;
+    background-image: url('/images/star.svg'),
+            url('/images/star.svg'),
+            url('/images/star.svg');
+        background-repeat: no-repeat,
+            no-repeat,
+            no-repeat;
+        background-position: 0 top,
+            30px top,
+            160px top;
+}
+
+.dishes-card-ratings {
+
+}
+
+
+
 .circles {
     background-color: #d26bce;
     grid-area: circles;
