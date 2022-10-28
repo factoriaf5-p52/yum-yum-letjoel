@@ -144,7 +144,7 @@ a:active {
     opacity: .9;
     color: #999999;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.2rem;
 }
 .fields {
@@ -160,7 +160,7 @@ a:active {
     background-color: #fff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: solid 0.1rem #dcdbdb;
+    border-bottom: solid 0.15rem #dcdbdb;
 }
 .field2 {
     height: 70px;
@@ -181,13 +181,46 @@ a:active {
     font-family: 'intro';
     font-weight: 700;
     font-size: 1.1rem;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 .how-it-works {
     background-color: #fff;
     grid-area: how;
+    display: flex;
+    flex-direction: column;
 }
+.how-h1 {
+    font-family: "Intro";
+        font-weight: 900;
+        font-size: 2.5rem;
+        color: #fa7344;
+}
+.how-cards {
+    display: flex;
+    flex-direction: column;
+}
+.how-card {
+    display: flex;
+    flex-direction: row;
+    
+}
+.how-card-img img{
+    height: 40px;
+}
+.how-card-article {
+
+}
+.how-card-article-h2 {
+
+}
+.how-card-article-h2-2 {
+
+}
+.how-card-article-p {
+
+}
+
 .dishes {
     background-color: #4a79c5;
     grid-area: dishes;
