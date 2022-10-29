@@ -53,16 +53,14 @@ body p{
 
 header {
     grid-area: header;      
-    max-height: 150px;  
+    height: 100px;
 }
 header .header-wrap {
-    height: 150px;
     width: 100%;
     display: flex;
-    gap: 22px;
     justify-content: center;
     align-items: center;
-
+    margin-top: 30px;
 
 }
 header .header-logo {
@@ -80,22 +78,24 @@ header .header-menu-chart {
 }
 
 header  .logo {
-    height: 2rem;
+    height: 24px;
 }
 
 header .menu {
     padding-right: 10px;
-    width: 2.7rem;
+    width: 2rem;
     filter: invert(50%);
 }
 header .chart {
-    width: 2.5rem;
+    width: 1.9rem;
     filter: invert(50%);
 }
 header p{
     color: #999999;
-    font-weight: 400;
-    font-size: 1.1em;
+    font-weight: 700;
+    font-size: .9rem;
+    font-family: 'Lato', sans-serif;
+  
 }
 header a:link,
 a:visited,
@@ -481,9 +481,17 @@ padding: 8px 25px 8px 25px;
     font-family: "Intro";
     text-align: center;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-bottom: 22px;
     line-height: 1.8rem;
+}
+.circles-card-i {
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    bottom: -2px;
+    left: -5px;
 }
 .circles-card-p {
     color: #fff;
