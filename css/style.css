@@ -282,7 +282,6 @@ a:active {
     
 }
 .dishes-card-img {
-
     width: 100%;
     border-top-left-radius: 5px ;
     border-top-right-radius: 5px;
@@ -323,16 +322,16 @@ a:active {
     align-self: center;
 }
 .dishes-card-button {
-margin-left: 100px;
-border-radius: 5px;
-border-style: none;
-background-color: #5FB038;
-color: white;
-font-family: 'Lato', sans-serif;
-font-style: italic;
-font-weight: 900;
-font-size: .9rem;
-padding: 8px 25px 8px 25px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #5FB038;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: .9rem;
+    padding: 8px 25px 8px 25px;
 }
 .dishes-card-stars-ratings {
     background-color: #fff;
@@ -341,11 +340,9 @@ padding: 8px 25px 8px 25px;
     border-bottom-left-radius: 5px;
     height: 50px;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
 }
 .dishes-card-stars {
-      height: 80px;
+    height: 80px;
     width: 150px;
     margin-left: 20px;
     background-size: 18px 18px;
@@ -402,25 +399,17 @@ padding: 8px 25px 8px 25px;
     font-size: .5rem;
     padding-left: 2px;
 }
-
-
 .circles {
     grid-area: circles;
     /* width: 100%; */
     background: rgb(238, 59, 81);
     background: linear-gradient(0deg, rgba(238, 59, 81, 1) 0%, rgba(250, 115, 68, 1) 78%);
-
-
 }
 .circles-cards {
     display: grid;
     grid-template-columns: 50vw 50vw;
     padding-top: 50px;
     /* padding-bottom: 50px; */
-}
-.circles-card {
-
-
 }
 .circles-card-1 {
     display: flex;
@@ -462,9 +451,8 @@ padding: 8px 25px 8px 25px;
     height: 60px;
     filter: invert(60%) sepia(70%) saturate(580%) hue-rotate(354deg) brightness(98%) contrast(95%);
 }
-
 .circles-card-img-1 img {
-
+    
 }
 .circles-card-img-2 img {
     position: relative;
@@ -502,22 +490,314 @@ padding: 8px 25px 8px 25px;
     text-align: center;
     padding-bottom: 40px;
 }
-
-.restaurant-by-cuisine {
-    background-color: #37808d;
+.restaurant {
+    padding-top: 40px;
+    background-color: #F5F5EB;
     grid-area: restaurant;
 }
+.restaurant-h1 {
+    font-family: "Intro";
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #fa7344;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.restaurant-cards {
+    margin: 20px;
+}
+.restaurant-card {
+    margin-bottom: 30px;
+
+}
+.restaurant-card-img {
+
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.restaurant-card-article {
+    background-color: #fff;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.restaurant-card-article-h2 {
+    padding-top: 20px;
+    color: #474e48;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.restaurant-card-article-p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+}
 .banner {
-    background-color: #b30202;
-    grid-area: banner;
+    grid-area: banner; 
+    padding: 20px;
+    background-color: #F5F5EB;
+}
+.banner-box {
+    height: 290px;
+    border-radius: 5px;
+    background-color: #292931;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.banner-h1 {
+    color: white;
+    font-family: "Intro";
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.1rem;
+    padding-top: 30px;
+    padding-bottom: 30px;        
 }
 .featured {
-    background-color: #f0760a;
     grid-area: featured;
+    background-color: #F5F5EB;
+    padding-top: 30px;
 }
+
+.featured-h1 {
+    font-family: "Intro";
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fa7344;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.featured-cards {
+    margin: 20px;
+}
+
+.featured-card {
+    margin-bottom: 30px;
+
+}
+
+.featured-card-img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.featured-card-box {
+    position: relative;   
+}
+/* RIBBON START https: //codepen.io/nxworld/pen/oLdoWb*/
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+
+}
+.triangle-up{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -5px;
+    left: 76px;
+    border-style: solid;
+    border-width: 0 4px 5px 4px;
+    border-color: transparent transparent #cc4b1f transparent;
+}
+.triangle-down{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 76px;
+    left: -5px;
+    border-style: solid;
+    border-width: 4px 5px 4px 0;
+    border-color: transparent #cc4b1f transparent transparent;
+}
+
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 7px 0;
+    background-color: #fa7343;
+    color: #fff;
+    font: 700 14px/1 'Lato', sans-serif;
+    text-align: center;
+}
+
+.ribbon-top-left {
+    top: -5px;
+    left: -5px;
+}
+
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.ribbon-top-left::before {
+    top: 0;
+    right: 0;
+}
+
+.ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+}
+
+.ribbon-top-left span {
+    right: 3px;
+    top: 18px;
+    transform: rotate(-45deg);
+}
+/* RIBBON END */
+
+.featured-card-article {
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+.featured-card-article-h2 {
+    padding-top: 20px;
+    color: #474e48;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.featured-card-article-p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.featured-card-price-buy {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+
+.featured-card-button {
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #5FB038;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: .9rem;
+    padding: 8px 25px 8px 25px;
+}
+.featured-card-button-2 {
+    margin-left: 1px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #5FB038;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: .9rem;
+    padding: 8px 20px 8px 20px;
+}
+
+.featured-card-stars-ratings {
+    background-color: #fff;
+    border-top: solid 3px #F5F5EB;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 50px;
+    display: flex;
+}
+
+.featured-card-stars {
+    height: 80px;
+    width: 150px;
+    margin-left: 20px;
+    background-size: 18px 18px;
+    background-image: url('/images/star.svg'),
+        url('/images/star.svg'),
+        url('/images/star.svg'),
+        url('/images/star.svg'),
+        url('/images/star.svg');
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: 0 15px,
+        20px 15px,
+        40px 15px,
+        60px 15px,
+        80px 15px;
+}
+
+.featured-card-stars-4stars {
+    height: 80px;
+    width: 150px;
+    margin-left: 20px;
+    background-size: 18px 18px;
+    background-image: url('/images/star.svg'),
+        url('/images/star.svg'),
+        url('/images/star.svg'),
+        url('/images/star.svg'),
+        url('/images/star_gris.svg');
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: 0 15px,
+        20px 15px,
+        40px 15px,
+        60px 15px,
+        80px 15px;
+
+}
+
+.featured-card-ratings {
+    align-self: center;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.featured-card-ratings-arrow {
+    align-self: center;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: .5rem;
+    padding-left: 2px;
+}
+
 .landing-pages {
-    background-color: #ded718;
     grid-area: landing;
+    background-color: #ded718;
 }
 footer {
     background-color: #10b035;
