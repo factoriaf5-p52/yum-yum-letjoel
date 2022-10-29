@@ -797,8 +797,34 @@ a:active {
 
 .landing-pages {
     grid-area: landing;
-    background-color: #ded718;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 20px;
 }
+.landing-pages-box{
+    padding-bottom: 50px;
+}
+.landing-pages-h2 {
+    padding-top: 20px;
+    color: #3f3f3f;
+    font-family: 'Intro';
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.landing-pages-ul {
+    padding-top:30px;
+}
+.landing-pages-li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
 footer {
     background-color: #10b035;
     grid-area: footer;
