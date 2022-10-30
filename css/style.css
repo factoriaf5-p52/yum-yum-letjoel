@@ -826,8 +826,38 @@ a:active {
 }
 
 footer {
-    background-color: #10b035;
     grid-area: footer;
+    background-color: #edede5;
+    height: 120px;
+
+}
+.footer-container {
+    padding-left: 20px;
+    padding-top: 25px;
+  
+}
+.footer-c {
+
+    color: #646462;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+.footer-c-em {
+    color: #73b754;
+}
+.footer-ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.footer-li {
+    padding-top: 20px;
+    color: #646462;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 /* -- DESKTOP -- */
