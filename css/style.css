@@ -875,4 +875,17 @@ footer {
             "landing landing"
             "footer footer"
         }
+
+    header .menu {
+        display: none;
+    }
+
+    header .chart {
+        display: none;
+    }
+
+    .image {
+        height: 100%;
+
+    }
 }
