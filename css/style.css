@@ -1107,6 +1107,13 @@ footer {
     }
     .featured-card-price-buy {
         padding-left: 10px;
-
+    }
+    .landing-pages {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 100px;
+        justify-content: flex-start;
+        padding-left: 150px;
     }
 }
