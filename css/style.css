@@ -27,7 +27,6 @@ sans-serif; */
 
 body {
     background-color: #fff;
-    /* min-width: 378px; */
 }
 body p{
     font-family: 'Lato', sans-serif;
@@ -36,7 +35,6 @@ body p{
 #grid-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(11, 1fr); */
 
     grid-template-areas: "header header"
                         "image image"
@@ -108,19 +106,12 @@ a:active {
 }
 .image {
     grid-area: image;
-    height: 350px;
+    height: 330px;
     width: 100%;
     background-color: #999999;
 }
 .order {
     grid-area: order;
-    /* width: 100%;
-    background: linear-gradient(0deg, rgba(116, 204, 82, 1) 0%, rgba(192, 218, 56, 1) 78%);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     }
 .order-wrap {
     width: 100%;
@@ -270,7 +261,6 @@ a:active {
     font-weight: 400;
     font-size: 1.05rem;
     line-height: 1.5rem;
-    /* text-align: justify; */
     word-break: break-all;
 
 }
@@ -498,9 +488,6 @@ a:active {
     height: 60px;
     filter: invert(60%) sepia(70%) saturate(580%) hue-rotate(354deg) brightness(98%) contrast(95%);
 }
-.circles-card-img-1 img {
-    
-}
 .circles-card-img-2 img {
     position: relative;
     top: -7px;
@@ -550,6 +537,8 @@ a:active {
     color: #fa7344;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .restaurant-cards {
     margin: 20px;
@@ -561,6 +550,13 @@ a:active {
     margin-bottom: 30px;
     width: 300px;
 
+}
+.restaurant-card-4,
+.restaurant-card-5,
+.restaurant-card-6,
+.restaurant-card-7,
+.restaurant-card-8 {
+    display: none;
 }
 .restaurant-card-1{order:1}
 .restaurant-card-2{order:5}
@@ -652,7 +648,7 @@ a:active {
 
 .featured-card {
     margin-bottom: 30px;
-
+    width: 300px;
 }
 
 .featured-card-img {
@@ -748,9 +744,7 @@ a:active {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 1rem;
-
 }
-
 .featured-card-article-p {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -759,7 +753,6 @@ a:active {
     font-weight: 400;
     font-size: .9rem;
 }
-
 .featured-card-price-buy {
     display: flex;
     justify-content: space-between;
@@ -769,7 +762,6 @@ a:active {
     padding-right: 20px;
     background-color: #fff;
 }
-
 .featured-card-button {
     margin-left: 10px;
     border-radius: 5px;
@@ -794,7 +786,6 @@ a:active {
     font-size: .9rem;
     padding: 8px 20px 8px 20px;
 }
-
 .featured-card-stars-ratings {
     background-color: #fff;
     border-top: solid 3px #F5F5EB;
@@ -846,7 +837,6 @@ a:active {
         40px 15px,
         60px 15px,
         80px 15px;
-
 }
 
 .featured-card-ratings {
@@ -893,14 +883,11 @@ a:active {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 14px;
-
 }
-
 footer {
     grid-area: footer;
     background-color: #edede5;
     height: 120px;
-
 }
 .footer-container {
     display:flex;
@@ -910,12 +897,10 @@ footer {
   
 }
 .footer-c {
-
     color: #646462;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    
 }
 .footer-c-em {
     color: #73b754;
@@ -936,7 +921,6 @@ footer {
 /* -- DESKTOP -- */
 @media (min-width: 700px) {
     #grid-wrapper {
-        /* grid-template-rows: repeat(10, 1fr); */
         grid-template-areas: "header header"
             "image order"
             "how how"
@@ -955,7 +939,6 @@ footer {
         align-items: center;
         margin-top: 30px;
         padding-left: 50px;
-
     }
     
     header .header-logo {
@@ -997,7 +980,7 @@ footer {
         padding-left: 40px;
     }
     .order-h1 {
-        padding: 50px 0 50px 50px;
+        padding: 40px 0 30px 50px;
         align-self: flex-start;
     }
     .field1 {
@@ -1048,7 +1031,6 @@ footer {
         display: grid;
         grid-template-columns: 25vw 25vw 25vw 25vw;
         padding-top: 70px;
-        /* padding-bottom: 50px; */
     }
     .circles-card-1 {
         justify-content: flex-start;
@@ -1080,18 +1062,31 @@ footer {
         gap: 30px;
     }
     .restaurant-card-img {
-
-
         height: 180px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         background-color: #969fa6;
     }
+    .restaurant-card-4,
+    .restaurant-card-5,
+    .restaurant-card-6,
+    .restaurant-card-7,
+    .restaurant-card-8 {
+        display: block;
+    }
+    .restaurant-h1 {
+        font-family: "Intro";
+        text-align: center;
+        font-weight: 900;
+        font-size: 2.5rem;
+        color: #fa7344;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .banner-box {
-        width: 85%;
+        width: 90%;
     }
     .featured-cards {
-
         gap: 30px;
     }
     .featured-card-article-h2{
@@ -1114,9 +1109,9 @@ footer {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        gap: 100px;
+        gap: 150px;
         justify-content: flex-start;
-        padding-left: 150px;
+        padding-left: 100px;
     }
     footer {
         height: 70px;
