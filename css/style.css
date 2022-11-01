@@ -290,13 +290,21 @@ a:active {
 }
 .dishes-cards {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .dishes-card {
     margin-bottom: 30px;
+    width: 300px;
     
 }
 .dishes-card-img {
     width: 100%;
+    height: 180px;
+    background-color: #969fa6;
     border-top-left-radius: 5px ;
     border-top-right-radius: 5px;
 }
@@ -398,6 +406,27 @@ a:active {
             80px 15px;
             
 }
+.dishes-card-stars-3stars {
+    height: 80px;
+    width: 150px;
+    margin-left: 20px;
+    background-size: 18px 18px;
+    background-image: url('/images/star.svg'),
+        url('/images/star.svg'),
+        url('/images/star.svg'),
+        url('/images/star_gris.svg'),
+        url('/images/star_gris.svg');
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: 0 15px,
+        20px 15px,
+        40px 15px,
+        60px 15px,
+        80px 15px;
+}
 .dishes-card-ratings {
     align-self: center;
     color: #999999;
@@ -413,6 +442,10 @@ a:active {
     font-size: .5rem;
     padding-left: 2px;
 }
+.dishes-card-4, .dishes-card-5, .dishes-card-6, .dishes-card-7, .dishes-card-8  {
+    display:none;
+}
+
 .circles {
     grid-area: circles;
     /* width: 100%; */
@@ -958,12 +991,59 @@ footer {
     .dishes-cards {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
         gap: 30px;
     }
+    
+    .dishes-card-4,
+    .dishes-card-5,
+    .dishes-card-6,
+    .dishes-card-7,
+    .dishes-card-8 {
+        display: block;
+    }
+    .dishes-card-1 {order: 1;}
+    .dishes-card-2 {order: 5;}
+    .dishes-card-3 {order: 6;}
+    .dishes-card-4 {order: 2;}
+    .dishes-card-5 {order: 3;}
+    .dishes-card-6 {order: 7;}
+    .dishes-card-7 {order: 4;}
+    .dishes-card-8 {order: 8;}
+    .dishes-card-article-h2{
+        height: 50px;
+    }
+    .circles{
+        background: linear-gradient(0deg,#ee3b51 50%, #fa7344 99%);
+    }
+    .circles-cards {
+        display: grid;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
+        padding-top: 70px;
+        /* padding-bottom: 50px; */
+    }
+.circles-card-1 {
+    justify-content: flex-start;
+}
 
+.circles-card-2 {
+    justify-content: flex-start;
+}
 
+.circles-card-3 {
+    justify-content: flex-start;
+}
+
+.circles-card-4 {
+    justify-content: flex-start;
+}
+
+.circles-card-img {
+    height: 126px;
+    width: 126px;
+}
 
 
 
