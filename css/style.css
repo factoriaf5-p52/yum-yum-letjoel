@@ -555,6 +555,7 @@ a:active {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .restaurant-card {
     margin-bottom: 30px;
@@ -604,6 +605,9 @@ a:active {
     grid-area: banner; 
     padding: 20px;
     background-color: #F5F5EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner-box {
     height: 290px;
@@ -640,6 +644,10 @@ a:active {
 
 .featured-cards {
     margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .featured-card {
@@ -649,6 +657,8 @@ a:active {
 
 .featured-card-img {
     width: 100%;
+    height: 180px;
+    background-color: #969fa6;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -1075,5 +1085,28 @@ footer {
         border-top-right-radius: 5px;
         background-color: #969fa6;
     }
+    .banner-box {
+        width: 85%;
+    }
+    .featured-cards {
 
+        gap: 30px;
+    }
+    .featured-card-article-h2{
+        height: 30px;
+    }
+
+    .featured-card-button {
+        margin-left: 20px;
+        padding: 8px 15px 8px 15px;
+    }
+        
+    .featured-card-button-2 {
+        margin-left: 10px;
+        padding: 8px 15px 8px 15px;
+    }
+    .featured-card-price-buy {
+        padding-left: 10px;
+
+    }
 }
