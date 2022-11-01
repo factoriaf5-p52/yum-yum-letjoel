@@ -903,6 +903,8 @@ footer {
 
 }
 .footer-container {
+    display:flex;
+    flex-direction: column;
     padding-left: 20px;
     padding-top: 25px;
   
@@ -1116,4 +1118,38 @@ footer {
         justify-content: flex-start;
         padding-left: 150px;
     }
+    footer {
+        height: 70px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 28px;
+
+    }
+    .footer-li {
+        padding-top: 0px;
+    }
+
+    /* RIBBON START https: //codepen.io/nxworld/pen/oLdoWb*/
+    .triangle-up {
+        top: -4px;
+        left: 76px;
+    }
+
+    .triangle-down {
+        top: 76px;
+        left: -5px;
+    }
+
+    .ribbon-top-left {
+        top: -4px;
+        left: -5px;
+    }
+
+    /* RIBBON END */
+
 }
