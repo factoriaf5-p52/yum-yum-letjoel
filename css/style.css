@@ -103,7 +103,9 @@ a:hover,
 a:active {
     text-decoration: none;
 }
-
+.nav-ul {
+    display: none;
+}
 .image {
     grid-area: image;
     height: 350px;
@@ -112,20 +114,32 @@ a:active {
 }
 .order {
     grid-area: order;
+    /* width: 100%;
+    background: linear-gradient(0deg, rgba(116, 204, 82, 1) 0%, rgba(192, 218, 56, 1) 78%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    }
+.order-wrap {
     width: 100%;
     background: linear-gradient(0deg, rgba(116, 204, 82, 1) 0%, rgba(192, 218, 56, 1) 78%);
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
+}
 .order-h1 {
-    padding: 20px 0 20px 30px;
+    padding: 20px 0 20px 5px;
     font-family: "Intro";
     font-weight: 900;
     font-size: 2.5rem;
     color: #fff;
     line-height: 3rem;
+    text-align: left;
+    align-self: center;
 }
 .order .form-wrap{
     display: flex;
@@ -177,7 +191,7 @@ a:active {
 }
 .findButton {
     height: 65px;
-    width: 66%;
+    width: 40%;
     border-radius: 5px;
     background-color: #fa7344;
     color: white;
@@ -875,7 +889,24 @@ footer {
             "landing landing"
             "footer footer"
         }
+    header .header-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 30px;
+        padding-left: 50px;
 
+    }
+    
+    header .header-logo {
+        width: 40%;
+        padding-left: 20px;
+        line-height: 25px;
+    }
+    header .header-menu-chart {
+        display: none;
+    }
     header .menu {
         display: none;
     }
@@ -883,9 +914,57 @@ footer {
     header .chart {
         display: none;
     }
-
+    .nav-container {
+        width: 100%;
+        padding-right: 100px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-ul {
+        display: flex;
+        color: #474e48;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: .9rem;
+    }
+    .nav-ul li {
+        display: inline-block;
+        margin-right: 50px;
+    }
     .image {
         height: 100%;
-
     }
+    .order-wrap {
+        padding-left: 40px;
+    }
+    .order-h1 {
+        padding: 50px 0 50px 50px;
+        align-self: flex-start;
+    }
+    .field1 {
+        margin-right: 75px;
+    }
+    .field2 {
+        margin-right: 75px;
+    }
+    .findButton {   
+        margin-bottom: 75px;
+    }
+    .how-cards {
+        flex-direction: row;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .dishes-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+
+
+
+
 }

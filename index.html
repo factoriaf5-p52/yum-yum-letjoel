@@ -13,17 +13,35 @@
 </head>
 
 <body>
-
+    <!-- WEB CONTAINER -->
     <div id="grid-wrapper">
 
+        <!-- HEADER -->
         <header>
             <div class="header-wrap">
+
+                <!-- LOGO -->
                 <div class="header-logo">
                     <a href="">
                         <img class="logo" src="/images/logo.svg" alt="Imagen de Cabecera">
                         <p>Local Cuisine Delivered</p>
                     </a>
                 </div>
+
+                <!-- MENU DESKTOP-->
+                <nav class="nav-container">
+                    <ul class="nav-ul">
+                        <li>Home</li>
+                        <li>Restaurants</li>
+                        <li>Offers</li>
+                        <li>Dishes</li>
+                        <li>Cuisine</li>
+                        <li>About us</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+
+                <!-- MENU MOBILE-->
                 <div class="header-menu-chart">
                     <a href="">
                         <img class="menu" src="/images/hamburger.svg" alt="Menu">
@@ -40,18 +58,20 @@
 
         <!-- SECTION ORDER -->
         <section class="order">
-            <h1 class="order-h1">ORDER FROM RESTAURANTS AROUND YOU</h1>
-            <form class="form-wrap" action="">
-                <div class="field1">
-                    <img class="pin" src="/images/pin.svg" alt="Pin localización"><input class="fields" type="text"
-                        placeholder="Enter your address">
-                </div>
-                <div class="field2">
-                    <img class="bbq" src="/images/bbq.svg" alt="Barbacoa"><input class="fields" type="text"
-                        placeholder="What would you like?">
-                </div>
-                <input class="findButton" type="button" value="FIND A FOOD">
-            </form>
+            <div class="order-wrap">
+                <h1 class="order-h1">ORDER FROM <br /> RESTAURANTS<br /> AROUND YOU</h1>
+                <form class="form-wrap" action="">
+                    <div class="field1">
+                        <img class="pin" src="/images/pin.svg" alt="Pin localización"><input class="fields" type="text"
+                            placeholder="Enter your address">
+                    </div>
+                    <div class="field2">
+                        <img class="bbq" src="/images/bbq.svg" alt="Barbacoa"><input class="fields" type="text"
+                            placeholder="What would you like?">
+                    </div>
+                    <input class="findButton" type="button" value="FIND A FOOD">
+                </form>
+            </div>
         </section>
 
         <!-- SECTION HOW IT WORKS -->
