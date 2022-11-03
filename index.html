@@ -12,495 +12,487 @@
     <title>YUM-YUM</title>
 </head>
 
-<body>
-    <!-- WEB CONTAINER -->
-    <div id="grid-wrapper">
+<body id="grid-wrapper">
 
-        <!-- HEADER -->
-        <header>
-            <div class="header-wrap">
+    <!-- HEADER -->
+    <header>
+        <div class="header-wrap">
 
-                <!-- LOGO -->
-                <div class="header-logo">
-                    <a href="">
-                        <img class="logo" src="/images/logo.svg" alt="Imagen de Cabecera">
-                        <p>Local Cuisine Delivered</p>
-                    </a>
+            <!-- LOGO -->
+            <div class="header-logo">
+                <a href="">
+                    <img class="logo" src="/images/logo.svg" alt="Imagen de Cabecera">
+                    <p>Local Cuisine Delivered</p>
+                </a>
+            </div>
+
+            <!-- MENU DESKTOP-->
+            <nav class="nav-container">
+                <ul class="nav-ul">
+                    <li>Home</li>
+                    <li>Restaurants</li>
+                    <li>Offers</li>
+                    <li>Dishes</li>
+                    <li>Cuisine</li>
+                    <li>About us</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+
+            <!-- MENU MOBILE-->
+            <div class="header-menu-chart">
+                <a href="">
+                    <img class="menu" src="/images/hamburger.svg" alt="Menu">
+                </a>
+                <a href="">
+                    <img class="chart" src="/images/cart.svg" alt="carrito">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- IMAGEN PRINCIPAL -->
+    <section class="image"></section>
+
+    <!-- SECTION ORDER -->
+    <section class="order">
+        <div class="order-wrap">
+            <h1 class="order-h1">ORDER FROM <br> RESTAURANTS<br> AROUND YOU</h1>
+            <form class="form-wrap" action="">
+                <div class="field1">
+                    <img class="pin" src="/images/pin.svg" alt="Pin localización"><input class="fields" type="text"
+                        placeholder="Enter your address">
                 </div>
+                <div class="field2">
+                    <img class="bbq" src="/images/bbq.svg" alt="Barbacoa"><input class="fields" type="text"
+                        placeholder="What would you like?">
+                </div>
+                <input class="findButton" type="button" value="FIND A FOOD">
+            </form>
+        </div>
+    </section>
 
-                <!-- MENU DESKTOP-->
-                <nav class="nav-container">
-                    <ul class="nav-ul">
-                        <li>Home</li>
-                        <li>Restaurants</li>
-                        <li>Offers</li>
-                        <li>Dishes</li>
-                        <li>Cuisine</li>
-                        <li>About us</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav>
+    <!-- SECTION HOW IT WORKS -->
+    <section class="how-it-works">
+        <h1 class="how-h1">HOW IT WORKS?</h1>
+        <div class="how-cards">
+            <div class="how-card">
+                <div class="how-card-img how-card-img-outline">
+                    <img src="/images/map.png" alt="Mapa">
+                </div>
+                <article class="how-card-article">
+                    <div class="how-card-article-head">
+                        <h2 class="how-card-article-h2">1.</h2>
+                        <h2 class="how-card-article-h2-2">SEARCH</h2>
+                    </div>
+                    <p class="how-card-article-p">Quisque rutrum. Aenean imperdieet. Etiam ultricies nisi vel augue.
+                    </p>
+                </article>
+            </div>
+            <div class="how-card">
+                <div class="how-card-img how-card-img-clip">
+                    <img src="/images/clipboard.png" alt="Clipboard">
+                </div>
+                <article class="how-card-article">
+                    <div class="how-card-article-head">
+                        <h2 class="how-card-article-h2">2.</h2>
+                        <h2 class="how-card-article-h2-2">ORDER</h2>
+                    </div>
+                    <p class="how-card-article-p">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
+                        ut
+                        libero venenatis fauci-
+                    </p>
+                </article>
+            </div>
 
-                <!-- MENU MOBILE-->
-                <div class="header-menu-chart">
-                    <a href="">
-                        <img class="menu" src="/images/hamburger.svg" alt="Menu">
-                    </a>
-                    <a href="">
-                        <img class="chart" src="/images/cart.svg" alt="carrito">
-                    </a>
+            <div class="how-card">
+                <div class="how-card-img">
+                    <img src="/images/bag.png" alt="Bag">
+                </div>
+                <article class="how-card-article">
+                    <div class="how-card-article-head">
+                        <h2 class="how-card-article-h2">3.</h2>
+                        <h2 class="how-card-article-h2-2">EAT</h2>
+                    </div>
+                    <p class="how-card-article-p">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
+                        ut
+                        libero venenatis faucibus
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION DISHES -->
+    <section class="dishes">
+        <h1 class="dishes-h1">DISHES</h1>
+        <div class="dishes-cards">
+            <div class="dishes-card dishes-card-1">
+                <div class="dishes-card-img"></div>
+                <article class="dishes-card-article">
+                    <h2 class="dishes-card-article-h2">Pasta with Lamb Ragù: <br>Coppa, Boston</h2>
+                    <p class="dishes-card-article-p">Christine Quinlan</p>
+                </article>
+                <div class="dishes-card-price-buy">
+                    <p class="dishes-card-price">$ 19.95</p>
+                    <button class="dishes-card-button">Buy Now</button>
+                </div>
+                <div class="dishes-card-stars-ratings">
+                    <div class="dishes-card-stars"></div>
+                    <p class="dishes-card-ratings">1,679 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
+                    </p>
                 </div>
             </div>
-        </header>
-
-        <!-- IMAGEN PRINCIPAL -->
-        <section class="image"></section>
-
-        <!-- SECTION ORDER -->
-        <section class="order">
-            <div class="order-wrap">
-                <h1 class="order-h1">ORDER FROM <br> RESTAURANTS<br> AROUND YOU</h1>
-                <form class="form-wrap" action="">
-                    <div class="field1">
-                        <img class="pin" src="/images/pin.svg" alt="Pin localización"><input class="fields" type="text"
-                            placeholder="Enter your address">
-                    </div>
-                    <div class="field2">
-                        <img class="bbq" src="/images/bbq.svg" alt="Barbacoa"><input class="fields" type="text"
-                            placeholder="What would you like?">
-                    </div>
-                    <input class="findButton" type="button" value="FIND A FOOD">
-                </form>
-            </div>
-        </section>
-
-        <!-- SECTION HOW IT WORKS -->
-        <section class="how-it-works">
-            <h1 class="how-h1">HOW IT WORKS?</h1>
-            <div class="how-cards">
-                <div class="how-card">
-                    <div class="how-card-img how-card-img-outline">
-                        <img src="/images/map.png" alt="Mapa">
-                    </div>
-                    <article class="how-card-article">
-                        <div class="how-card-article-head">
-                            <h2 class="how-card-article-h2">1.</h2>
-                            <h2 class="how-card-article-h2-2">SEARCH</h2>
-                        </div>
-                        <p class="how-card-article-p">Quisque rutrum. Aenean imperdieet. Etiam ultricies nisi vel augue.
-                        </p>
-                    </article>
+            <div class="dishes-card dishes-card-2">
+                <div class="dishes-card-img"></div>
+                <article class="dishes-card-article">
+                    <h2 class="dishes-card-article-h2">Pasta with Lamb Ragù: <br>Coppa, Boston</h2>
+                    <p class="dishes-card-article-p">Christine Quinlan</p>
+                </article>
+                <div class="dishes-card-price-buy">
+                    <p class="dishes-card-price">$ 5.99</p>
+                    <button class="dishes-card-button">Buy Now</button>
                 </div>
-                <div class="how-card">
-                    <div class="how-card-img how-card-img-clip">
-                        <img src="/images/clipboard.png" alt="Clipboard">
-                    </div>
-                    <article class="how-card-article">
-                        <div class="how-card-article-head">
-                            <h2 class="how-card-article-h2">2.</h2>
-                            <h2 class="how-card-article-h2-2">ORDER</h2>
-                        </div>
-                        <p class="how-card-article-p">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
-                            ut
-                            libero venenatis fauci-
-                        </p>
-                    </article>
-                </div>
-
-                <div class="how-card">
-                    <div class="how-card-img">
-                        <img src="/images/bag.png" alt="Bag">
-                    </div>
-                    <article class="how-card-article">
-                        <div class="how-card-article-head">
-                            <h2 class="how-card-article-h2">3.</h2>
-                            <h2 class="how-card-article-h2-2">EAT</h2>
-                        </div>
-                        <p class="how-card-article-p">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
-                            ut
-                            libero venenatis faucibus
-                        </p>
-                    </article>
+                <div class="dishes-card-stars-ratings">
+                    <div class="dishes-card-stars-4stars"></div>
+                    <p class="dishes-card-ratings">12 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
+                    </p>
                 </div>
             </div>
-        </section>
-
-        <!-- SECTION DISHES -->
-        <section class="dishes">
-            <h1 class="dishes-h1">DISHES</h1>
-            <div class="dishes-cards">
-                <div class="dishes-card dishes-card-1">
-                    <div class="dishes-card-img"></div>
-                    <article class="dishes-card-article">
-                        <h2 class="dishes-card-article-h2">Pasta with Lamb Ragù: <br>Coppa, Boston</h2>
-                        <p class="dishes-card-article-p">Christine Quinlan</p>
-                    </article>
-                    <div class="dishes-card-price-buy">
-                        <p class="dishes-card-price">$ 19.95</p>
-                        <button class="dishes-card-button">Buy Now</button>
-                    </div>
-                    <div class="dishes-card-stars-ratings">
-                        <div class="dishes-card-stars"></div>
-                        <p class="dishes-card-ratings">1,679 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
-                        </p>
-                    </div>
+            <div class="dishes-card dishes-card-3">
+                <div class="dishes-card-img"></div>
+                <article class="dishes-card-article">
+                    <h2 class="dishes-card-article-h2">Pork Rillette Hand Pies: Olympic Provisions; Portland, <br>
+                        OR</h2>
+                    <p class="dishes-card-article-p">Joey Pepperoni's Pizza</p>
+                </article>
+                <div class="dishes-card-price-buy">
+                    <p class="dishes-card-price">$ 10.80</p>
+                    <button class="dishes-card-button">Buy Now</button>
                 </div>
-                <div class="dishes-card dishes-card-2">
-                    <div class="dishes-card-img"></div>
-                    <article class="dishes-card-article">
-                        <h2 class="dishes-card-article-h2">Pasta with Lamb Ragù: <br>Coppa, Boston</h2>
-                        <p class="dishes-card-article-p">Christine Quinlan</p>
-                    </article>
-                    <div class="dishes-card-price-buy">
-                        <p class="dishes-card-price">$ 5.99</p>
-                        <button class="dishes-card-button">Buy Now</button>
-                    </div>
-                    <div class="dishes-card-stars-ratings">
-                        <div class="dishes-card-stars-4stars"></div>
-                        <p class="dishes-card-ratings">12 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
-                        </p>
-                    </div>
-                </div>
-                <div class="dishes-card dishes-card-3">
-                    <div class="dishes-card-img"></div>
-                    <article class="dishes-card-article">
-                        <h2 class="dishes-card-article-h2">Pork Rillette Hand Pies: Olympic Provisions; Portland, <br>
-                            OR</h2>
-                        <p class="dishes-card-article-p">Joey Pepperoni's Pizza</p>
-                    </article>
-                    <div class="dishes-card-price-buy">
-                        <p class="dishes-card-price">$ 10.80</p>
-                        <button class="dishes-card-button">Buy Now</button>
-                    </div>
-                    <div class="dishes-card-stars-ratings">
-                        <div class="dishes-card-stars-4stars"></div>
-                        <p class="dishes-card-ratings">33 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
-                        </p>
-                        </img>
-                    </div>
-                </div>
-                <div class="dishes-card dishes-card-4">
-                    <div class="dishes-card-img"></div>
-                    <article class="dishes-card-article">
-                        <h2 class="dishes-card-article-h2">Pork Rillette Hand Pies: Olympic Provisions; Portland, <br>
-                            OR</h2>
-                        <p class="dishes-card-article-p">Joey Pepperoni's Pizza</p>
-                    </article>
-                    <div class="dishes-card-price-buy">
-                        <p class="dishes-card-price">$ 13.45</p>
-                        <button class="dishes-card-button">Buy Now</button>
-                    </div>
-                    <div class="dishes-card-stars-ratings">
-                        <div class="dishes-card-stars-4stars"></div>
-                        <p class="dishes-card-ratings">14 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
-                        </p>
-                        </img>
-                    </div>
-                </div>
-                <div class="dishes-card dishes-card-5">
-                    <div class="dishes-card-img"></div>
-                    <article class="dishes-card-article">
-                        <h2 class="dishes-card-article-h2">Braised Leeks with Mozzarella<br>
-                            & a Fried Egg: FnB; Scottsdale,<br>AZ</h2>
-                        <p class="dishes-card-article-p">the24studio</p>
-                    </article>
-                    <div class="dishes-card-price-buy">
-                        <p class="dishes-card-price">$ 8.20</p>
-                        <button class="dishes-card-button">Buy Now</button>
-                    </div>
-                    <div class="dishes-card-stars-ratings">
-                        <div class="dishes-card-stars-3stars"></div>
-                        <p class="dishes-card-ratings">29 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
-                        </p>
-                        </img>
-                    </div>
-                </div>
-                <div class="dishes-card dishes-card-6">
-                    <div class="dishes-card-img"></div>
-                    <article class="dishes-card-article">
-                        <h2 class="dishes-card-article-h2">Braised Leeks with Mozzarella<br>
-                            & a Fried Egg: FnB; Scottsdale,<br>AZ</h2>
-                        <p class="dishes-card-article-p">the24studio</p>
-                    </article>
-                    <div class="dishes-card-price-buy">
-                        <p class="dishes-card-price">$ 7.75</p>
-                        <button class="dishes-card-button">Buy Now</button>
-                    </div>
-                    <div class="dishes-card-stars-ratings">
-                        <div class="dishes-card-stars"></div>
-                        <p class="dishes-card-ratings">51 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
-                        </p>
-                        </img>
-                    </div>
-                </div>
-                <div class="dishes-card dishes-card-7">
-                    <div class="dishes-card-img"></div>
-                    <article class="dishes-card-article">
-                        <h2 class="dishes-card-article-h2">Popcorn Chicken with Bleu<br>
-                            Cheese</h2>
-                        <p class="dishes-card-article-p">Joey Pepperoni's Pizza</p>
-                    </article>
-                    <div class="dishes-card-price-buy">
-                        <p class="dishes-card-price">$ 15.30</p>
-                        <button class="dishes-card-button">Buy Now</button>
-                    </div>
-                    <div class="dishes-card-stars-ratings">
-                        <div class="dishes-card-stars-4stars"></div>
-                        <p class="dishes-card-ratings">410 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
-                        </p>
-                        </img>
-                    </div>
-                </div>
-                <div class="dishes-card dishes-card-8">
-                    <div class="dishes-card-img"></div>
-                    <article class="dishes-card-article">
-                        <h2 class="dishes-card-article-h2">Popcorn Chicken with Bleu<br>
-                            Cheese</h2>
-                        <p class="dishes-card-article-p">Joey Pepperoni's Pizza</p>
-                    </article>
-                    <div class="dishes-card-price-buy">
-                        <p class="dishes-card-price">$ 12.99</p>
-                        <button class="dishes-card-button">Buy Now</button>
-                    </div>
-                    <div class="dishes-card-stars-ratings">
-                        <div class="dishes-card-stars-3stars"></div>
-                        <p class="dishes-card-ratings">3 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em></p>
-                        </img>
-                    </div>
-                </div>
-        </section>
-
-        <!-- SECTION CIRCLES -->
-        <section class="circles">
-            <div class="circles-cards">
-                <div class="circles-card circles-card-1">
-                    <div class="circles-card-img circles-card-img-1"><img src="/images/phone.svg" alt="Phone"></div>
-                    <h2 class="circles-card-h2">EASY<br>ONLINE</h2>
-                    <p class="circles-card-p">No need to pick up<br>the phone.Quick and<br>accurate ordering
-                        is<br>here.</p>
-                </div>
-                <div class="circles-card circles-card-2">
-                    <div class="circles-card-img circles-card-img-2"><img src="/images/chicken.svg" alt="Chicken"></div>
-                    <h2 class="circles-card-h2">12 000 <i class="circles-card-i">+</i><br>MENUS</h2>
-                    <p class="circles-card-p">Discovery new<br>places -order your<br>usual and throw<br>away those
-                        paper</p>
-                </div>
-                <div class="circles-card circles-card-3">
-                    <div class="circles-card-img circles-card-img-3"><img src="/images/percent.svg" alt="Percent"></div>
-                    <h2 class="circles-card-h2">DISCOUN<br>TS&DEALS</h2>
-                    <p class="circles-card-p">Get exclusive offers<br>and save on your<br>delivery favorites</p>
-                </div>
-                <div class="circles-card circles-card-4">
-                    <div class="circles-card-img circles-card-img-4"><img src="/images/mobile.svg" alt="Mobile"></div>
-                    <h2 class="circles-card-h2">ANYTIME,<br>ANYWHERE</h2>
-                    <p class="circles-card-p">On-the-go? Checkout<br>our conveniant apps<br>for iOS</p>
+                <div class="dishes-card-stars-ratings">
+                    <div class="dishes-card-stars-4stars"></div>
+                    <p class="dishes-card-ratings">33 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
+                    </p>
+                    </img>
                 </div>
             </div>
-        </section>
-
-        <!-- SECTION RESTAURANT -->
-        <section class="restaurant">
-            <h1 class="restaurant-h1">RESTAURANT BY CUISINE</h1>
-            <div class="restaurant-cards">
-                <div class="restaurant-card restaurant-card-1">
-                    <div class="restaurant-card-img"></div>
-                    <article class="restaurant-card-article">
-                        <h2 class="restaurant-card-article-h2">A La Carte</h2>
-                        <p class="restaurant-card-article-p">189 dishes</p>
-                    </article>
+            <div class="dishes-card dishes-card-4">
+                <div class="dishes-card-img"></div>
+                <article class="dishes-card-article">
+                    <h2 class="dishes-card-article-h2">Pork Rillette Hand Pies: Olympic Provisions; Portland, <br>
+                        OR</h2>
+                    <p class="dishes-card-article-p">Joey Pepperoni's Pizza</p>
+                </article>
+                <div class="dishes-card-price-buy">
+                    <p class="dishes-card-price">$ 13.45</p>
+                    <button class="dishes-card-button">Buy Now</button>
                 </div>
-                <div class="restaurant-card restaurant-card-2">
-                    <div class="restaurant-card-img"></div>
-                    <article class="restaurant-card-article">
-                        <h2 class="restaurant-card-article-h2">Fast Food</h2>
-                        <p class="restaurant-card-article-p">3,750 dishes</p>
-                    </article>
+                <div class="dishes-card-stars-ratings">
+                    <div class="dishes-card-stars-4stars"></div>
+                    <p class="dishes-card-ratings">14 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
+                    </p>
+                    </img>
                 </div>
-                <div class="restaurant-card restaurant-card-3">
-                    <div class="restaurant-card-img"></div>
-                    <article class="restaurant-card-article">
-                        <h2 class="restaurant-card-article-h2">Italian</h2>
-                        <p class="restaurant-card-article-p">708 dishes</p>
-                    </article>
-                </div>
-                <div class="restaurant-card restaurant-card-4">
-                    <div class="restaurant-card-img"></div>
-                    <article class="restaurant-card-article">
-                        <h2 class="restaurant-card-article-h2">African</h2>
-                        <p class="restaurant-card-article-p">76 dishes</p>
-                    </article>
-                </div>
-                <div class="restaurant-card restaurant-card-5">
-                    <div class="restaurant-card-img"></div>
-                    <article class="restaurant-card-article">
-                        <h2 class="restaurant-card-article-h2">American (Traditional)</h2>
-                        <p class="restaurant-card-article-p">193 dishes</p>
-                    </article>
-                </div>
-                <div class="restaurant-card restaurant-card-6">
-                    <div class="restaurant-card-img"></div>
-                    <article class="restaurant-card-article">
-                        <h2 class="restaurant-card-article-h2">Asian</h2>
-                        <p class="restaurant-card-article-p">497 dishes</p>
-                    </article>
-                </div>
-                <div class="restaurant-card restaurant-card-7">
-                    <div class="restaurant-card-img"></div>
-                    <article class="restaurant-card-article">
-                        <h2 class="restaurant-card-article-h2">Ukrainian</h2>
-                        <p class="restaurant-card-article-p">230 dishes</p>
-                    </article>
-                </div>
-                <div class="restaurant-card restaurant-card-8">
-                    <div class="restaurant-card-img"></div>
-                    <article class="restaurant-card-article">
-                        <h2 class="restaurant-card-article-h2">Vegetarian</h2>
-                        <p class="restaurant-card-article-p">1,811 dishes</p>
-                    </article>
-                </div>
-        </section>
-
-        <!-- SECTION BANNER -->
-        <section class="banner">
-            <div class="banner-box">
-                <h1 class="banner-h1">BANNER FROM HEZY THEME</h1>
             </div>
-        </section>
-
-        <!-- SECTION FEATURED -->
-        <section class="featured">
-            <h1 class="featured-h1">FEATURED RESTAURANT</h1>
-            <div class="featured-cards">
-                <div class="featured-card">
-                    <div class="featured-card-box">
-                        <div class="ribbon ribbon-top-left"><span>50% OFF</span></div>
-                        <div class="triangle-up"></div>
-                        <div class="triangle-down"></div>
-                        <div class="featured-card-img"></div>
-                    </div>
-                    <article class="featured-card-article">
-                        <h2 class="featured-card-article-h2">Acquarello</h2>
-                        <p class="featured-card-article-p">Italian</p>
-                    </article>
-                    <div class="featured-card-price-buy">
-                        <button class="featured-card-button-2">View menu</button>
-                        <button class="featured-card-button">Buy Now</button>
-                    </div>
-                    <div class="featured-card-stars-ratings">
-                        <div class="featured-card-stars-4stars"></div>
-                        <p class="featured-card-ratings">31 Reviews <em
-                                class="featured-card-ratings-arrow">&#10097;</em>
-                        </p>
-                    </div>
+            <div class="dishes-card dishes-card-5">
+                <div class="dishes-card-img"></div>
+                <article class="dishes-card-article">
+                    <h2 class="dishes-card-article-h2">Braised Leeks with Mozzarella<br>
+                        & a Fried Egg: FnB; Scottsdale,<br>AZ</h2>
+                    <p class="dishes-card-article-p">the24studio</p>
+                </article>
+                <div class="dishes-card-price-buy">
+                    <p class="dishes-card-price">$ 8.20</p>
+                    <button class="dishes-card-button">Buy Now</button>
                 </div>
-                <div class="featured-card">
+                <div class="dishes-card-stars-ratings">
+                    <div class="dishes-card-stars-3stars"></div>
+                    <p class="dishes-card-ratings">29 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
+                    </p>
+                    </img>
+                </div>
+            </div>
+            <div class="dishes-card dishes-card-6">
+                <div class="dishes-card-img"></div>
+                <article class="dishes-card-article">
+                    <h2 class="dishes-card-article-h2">Braised Leeks with Mozzarella<br>
+                        & a Fried Egg: FnB; Scottsdale,<br>AZ</h2>
+                    <p class="dishes-card-article-p">the24studio</p>
+                </article>
+                <div class="dishes-card-price-buy">
+                    <p class="dishes-card-price">$ 7.75</p>
+                    <button class="dishes-card-button">Buy Now</button>
+                </div>
+                <div class="dishes-card-stars-ratings">
+                    <div class="dishes-card-stars"></div>
+                    <p class="dishes-card-ratings">51 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
+                    </p>
+                    </img>
+                </div>
+            </div>
+            <div class="dishes-card dishes-card-7">
+                <div class="dishes-card-img"></div>
+                <article class="dishes-card-article">
+                    <h2 class="dishes-card-article-h2">Popcorn Chicken with Bleu<br>
+                        Cheese</h2>
+                    <p class="dishes-card-article-p">Joey Pepperoni's Pizza</p>
+                </article>
+                <div class="dishes-card-price-buy">
+                    <p class="dishes-card-price">$ 15.30</p>
+                    <button class="dishes-card-button">Buy Now</button>
+                </div>
+                <div class="dishes-card-stars-ratings">
+                    <div class="dishes-card-stars-4stars"></div>
+                    <p class="dishes-card-ratings">410 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em>
+                    </p>
+                    </img>
+                </div>
+            </div>
+            <div class="dishes-card dishes-card-8">
+                <div class="dishes-card-img"></div>
+                <article class="dishes-card-article">
+                    <h2 class="dishes-card-article-h2">Popcorn Chicken with Bleu<br>
+                        Cheese</h2>
+                    <p class="dishes-card-article-p">Joey Pepperoni's Pizza</p>
+                </article>
+                <div class="dishes-card-price-buy">
+                    <p class="dishes-card-price">$ 12.99</p>
+                    <button class="dishes-card-button">Buy Now</button>
+                </div>
+                <div class="dishes-card-stars-ratings">
+                    <div class="dishes-card-stars-3stars"></div>
+                    <p class="dishes-card-ratings">3 Ratings <em class="dishes-card-ratings-arrow">&#10097;</em></p>
+                    </img>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECTION CIRCLES -->
+    <section class="circles">
+        <div class="circles-cards">
+            <div class="circles-card circles-card-1">
+                <div class="circles-card-img circles-card-img-1"><img src="/images/phone.svg" alt="Phone"></div>
+                <h2 class="circles-card-h2">EASY<br>ONLINE</h2>
+                <p class="circles-card-p">No need to pick up<br>the phone.Quick and<br>accurate ordering
+                    is<br>here.</p>
+            </div>
+            <div class="circles-card circles-card-2">
+                <div class="circles-card-img circles-card-img-2"><img src="/images/chicken.svg" alt="Chicken"></div>
+                <h2 class="circles-card-h2">12 000 <i class="circles-card-i">+</i><br>MENUS</h2>
+                <p class="circles-card-p">Discovery new<br>places -order your<br>usual and throw<br>away those
+                    paper</p>
+            </div>
+            <div class="circles-card circles-card-3">
+                <div class="circles-card-img circles-card-img-3"><img src="/images/percent.svg" alt="Percent"></div>
+                <h2 class="circles-card-h2">DISCOUN<br>TS&DEALS</h2>
+                <p class="circles-card-p">Get exclusive offers<br>and save on your<br>delivery favorites</p>
+            </div>
+            <div class="circles-card circles-card-4">
+                <div class="circles-card-img circles-card-img-4"><img src="/images/mobile.svg" alt="Mobile"></div>
+                <h2 class="circles-card-h2">ANYTIME,<br>ANYWHERE</h2>
+                <p class="circles-card-p">On-the-go? Checkout<br>our conveniant apps<br>for iOS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION RESTAURANT -->
+    <section class="restaurant">
+        <h1 class="restaurant-h1">RESTAURANT BY CUISINE</h1>
+        <div class="restaurant-cards">
+            <div class="restaurant-card restaurant-card-1">
+                <div class="restaurant-card-img"></div>
+                <article class="restaurant-card-article">
+                    <h2 class="restaurant-card-article-h2">A La Carte</h2>
+                    <p class="restaurant-card-article-p">189 dishes</p>
+                </article>
+            </div>
+            <div class="restaurant-card restaurant-card-2">
+                <div class="restaurant-card-img"></div>
+                <article class="restaurant-card-article">
+                    <h2 class="restaurant-card-article-h2">Fast Food</h2>
+                    <p class="restaurant-card-article-p">3,750 dishes</p>
+                </article>
+            </div>
+            <div class="restaurant-card restaurant-card-3">
+                <div class="restaurant-card-img"></div>
+                <article class="restaurant-card-article">
+                    <h2 class="restaurant-card-article-h2">Italian</h2>
+                    <p class="restaurant-card-article-p">708 dishes</p>
+                </article>
+            </div>
+            <div class="restaurant-card restaurant-card-4">
+                <div class="restaurant-card-img"></div>
+                <article class="restaurant-card-article">
+                    <h2 class="restaurant-card-article-h2">African</h2>
+                    <p class="restaurant-card-article-p">76 dishes</p>
+                </article>
+            </div>
+            <div class="restaurant-card restaurant-card-5">
+                <div class="restaurant-card-img"></div>
+                <article class="restaurant-card-article">
+                    <h2 class="restaurant-card-article-h2">American (Traditional)</h2>
+                    <p class="restaurant-card-article-p">193 dishes</p>
+                </article>
+            </div>
+            <div class="restaurant-card restaurant-card-6">
+                <div class="restaurant-card-img"></div>
+                <article class="restaurant-card-article">
+                    <h2 class="restaurant-card-article-h2">Asian</h2>
+                    <p class="restaurant-card-article-p">497 dishes</p>
+                </article>
+            </div>
+            <div class="restaurant-card restaurant-card-7">
+                <div class="restaurant-card-img"></div>
+                <article class="restaurant-card-article">
+                    <h2 class="restaurant-card-article-h2">Ukrainian</h2>
+                    <p class="restaurant-card-article-p">230 dishes</p>
+                </article>
+            </div>
+            <div class="restaurant-card restaurant-card-8">
+                <div class="restaurant-card-img"></div>
+                <article class="restaurant-card-article">
+                    <h2 class="restaurant-card-article-h2">Vegetarian</h2>
+                    <p class="restaurant-card-article-p">1,811 dishes</p>
+                </article>
+            </div>
+    </section>
+
+    <!-- SECTION BANNER -->
+    <section class="banner">
+        <div class="banner-box">
+            <h1 class="banner-h1">BANNER FROM HEZY THEME</h1>
+        </div>
+    </section>
+
+    <!-- SECTION FEATURED -->
+    <section class="featured">
+        <h1 class="featured-h1">FEATURED RESTAURANT</h1>
+        <div class="featured-cards">
+            <div class="featured-card">
+                <div class="featured-card-box">
+                    <div class="ribbon ribbon-top-left"><span>50% OFF</span></div>
+                    <div class="triangle-up"></div>
+                    <div class="triangle-down"></div>
                     <div class="featured-card-img"></div>
-                    <article class="featured-card-article">
-                        <h2 class="featured-card-article-h2">Addision at The Grand Del<br>Mar</h2>
-                        <p class="featured-card-article-p">Contemporary French</p>
-                    </article>
-                    <div class="featured-card-price-buy">
-                        <button class="featured-card-button-2">View menu</button>
-                        <button class="featured-card-button">Buy Now</button>
-                    </div>
-                    <div class="featured-card-stars-ratings">
-                        <div class="featured-card-stars"></div>
-                        <p class="featured-card-ratings">419 Reviews <em
-                                class="featured-card-ratings-arrow">&#10097;</em>
-                        </p>
-                    </div>
                 </div>
-                <div class="featured-card">
-                    <div class="featured-card-box">
-                        <div class="ribbon ribbon-top-left"><span>30% OFF</span></div>
-                        <div class="triangle-up"></div>
-                        <div class="triangle-down"></div>
-                        <div class="featured-card-img"></div>
-                    </div>
-                    <article class="featured-card-article">
-                        <h2 class="featured-card-article-h2">Bouchard Restaurant and Inn</h2>
-                        <p class="featured-card-article-p">Contemporary French</p>
-                    </article>
-                    <div class="featured-card-price-buy">
-                        <button class="featured-card-button-2">View menu</button>
-                        <button class="featured-card-button">Buy Now</button>
-                    </div>
-                    <div class="featured-card-stars-ratings">
-                        <div class="featured-card-stars-4stars"></div>
-                        <p class="featured-card-ratings">12 Reviews <em
-                                class="featured-card-ratings-arrow">&#10097;</em>
-                        </p>
-                    </div>
+                <article class="featured-card-article">
+                    <h2 class="featured-card-article-h2">Acquarello</h2>
+                    <p class="featured-card-article-p">Italian</p>
+                </article>
+                <div class="featured-card-price-buy">
+                    <button class="featured-card-button-2">View menu</button>
+                    <button class="featured-card-button">Buy Now</button>
                 </div>
-                <div class="featured-card">
+                <div class="featured-card-stars-ratings">
+                    <div class="featured-card-stars-4stars"></div>
+                    <p class="featured-card-ratings">31 Reviews <em class="featured-card-ratings-arrow">&#10097;</em>
+                    </p>
+                </div>
+            </div>
+            <div class="featured-card">
+                <div class="featured-card-img"></div>
+                <article class="featured-card-article">
+                    <h2 class="featured-card-article-h2">Addision at The Grand Del<br>Mar</h2>
+                    <p class="featured-card-article-p">Contemporary French</p>
+                </article>
+                <div class="featured-card-price-buy">
+                    <button class="featured-card-button-2">View menu</button>
+                    <button class="featured-card-button">Buy Now</button>
+                </div>
+                <div class="featured-card-stars-ratings">
+                    <div class="featured-card-stars"></div>
+                    <p class="featured-card-ratings">419 Reviews <em class="featured-card-ratings-arrow">&#10097;</em>
+                    </p>
+                </div>
+            </div>
+            <div class="featured-card">
+                <div class="featured-card-box">
+                    <div class="ribbon ribbon-top-left"><span>30% OFF</span></div>
+                    <div class="triangle-up"></div>
+                    <div class="triangle-down"></div>
                     <div class="featured-card-img"></div>
-                    <article class="featured-card-article">
-                        <h2 class="featured-card-article-h2">Chama Gaucha Bazilian<br>Steakhouse</h2>
-                        <p class="featured-card-article-p">Steak</p>
-                    </article>
-                    <div class="featured-card-price-buy">
-                        <button class="featured-card-button-2">View menu</button>
-                        <button class="featured-card-button">Buy Now</button>
-                    </div>
-                    <div class="featured-card-stars-ratings">
-                        <div class="featured-card-stars-4stars"></div>
-                        <p class="featured-card-ratings">12 Reviews <em
-                                class="featured-card-ratings-arrow">&#10097;</em>
-                        </p>
-                    </div>
                 </div>
-        </section>
+                <article class="featured-card-article">
+                    <h2 class="featured-card-article-h2">Bouchard Restaurant and Inn</h2>
+                    <p class="featured-card-article-p">Contemporary French</p>
+                </article>
+                <div class="featured-card-price-buy">
+                    <button class="featured-card-button-2">View menu</button>
+                    <button class="featured-card-button">Buy Now</button>
+                </div>
+                <div class="featured-card-stars-ratings">
+                    <div class="featured-card-stars-4stars"></div>
+                    <p class="featured-card-ratings">12 Reviews <em class="featured-card-ratings-arrow">&#10097;</em>
+                    </p>
+                </div>
+            </div>
+            <div class="featured-card">
+                <div class="featured-card-img"></div>
+                <article class="featured-card-article">
+                    <h2 class="featured-card-article-h2">Chama Gaucha Bazilian<br>Steakhouse</h2>
+                    <p class="featured-card-article-p">Steak</p>
+                </article>
+                <div class="featured-card-price-buy">
+                    <button class="featured-card-button-2">View menu</button>
+                    <button class="featured-card-button">Buy Now</button>
+                </div>
+                <div class="featured-card-stars-ratings">
+                    <div class="featured-card-stars-4stars"></div>
+                    <p class="featured-card-ratings">12 Reviews <em class="featured-card-ratings-arrow">&#10097;</em>
+                    </p>
+                </div>
+            </div>
+    </section>
 
-        <!-- SECTION LANDING -->
-        <section class="landing-pages">
-            <div class="landing-pages-box">
-                <h2 class="landing-pages-h2">GET TO KNOW US</h2>
-                <ul class="landing-pages-ul">
-                    <li class="landing-pages-li">About AlaCartee</li>
-                    <li class="landing-pages-li">How Our Ordering Works</li>
-                    <li class="landing-pages-li">Blog</li>
-                    <li class="landing-pages-li">Press</li>
-                </ul>
-            </div>
-            <div class="landing-pages-box">
-                <h2 class="landing-pages-h2">BUSINESS SOLUTIONS</h2>
-                <ul class="landing-pages-ul">
-                    <li class="landing-pages-li">Join Our Restaurant</li>
-                    <li class="landing-pages-li">Network</li>
-                    <li class="landing-pages-li">Company Accounts</li>
-                </ul>
-            </div>
-            <div class="landing-pages-box">
-                <h2 class="landing-pages-h2">SOCIAL</h2>
-                <ul class="landing-pages-ul">
-                    <li class="landing-pages-li">Facebook</li>
-                    <li class="landing-pages-li">Twitter</li>
-                    <li class="landing-pages-li">Pinterest</li>
-                </ul>
-            </div>
-            <div class="landing-pages-box">
-                <h2 class="landing-pages-h2">CONTACT US</h2>
-                <ul class="landing-pages-ul">
-                    <li class="landing-pages-li">Contact Us</li>
-                    <li class="landing-pages-li">Help</li>
-                    <li class="landing-pages-li">Suggev</li>
-                </ul>
-            </div>
-        </section>
+    <!-- SECTION LANDING -->
+    <section class="landing-pages">
+        <div class="landing-pages-box">
+            <h2 class="landing-pages-h2">GET TO KNOW US</h2>
+            <ul class="landing-pages-ul">
+                <li class="landing-pages-li">About AlaCartee</li>
+                <li class="landing-pages-li">How Our Ordering Works</li>
+                <li class="landing-pages-li">Blog</li>
+                <li class="landing-pages-li">Press</li>
+            </ul>
+        </div>
+        <div class="landing-pages-box">
+            <h2 class="landing-pages-h2">BUSINESS SOLUTIONS</h2>
+            <ul class="landing-pages-ul">
+                <li class="landing-pages-li">Join Our Restaurant</li>
+                <li class="landing-pages-li">Network</li>
+                <li class="landing-pages-li">Company Accounts</li>
+            </ul>
+        </div>
+        <div class="landing-pages-box">
+            <h2 class="landing-pages-h2">SOCIAL</h2>
+            <ul class="landing-pages-ul">
+                <li class="landing-pages-li">Facebook</li>
+                <li class="landing-pages-li">Twitter</li>
+                <li class="landing-pages-li">Pinterest</li>
+            </ul>
+        </div>
+        <div class="landing-pages-box">
+            <h2 class="landing-pages-h2">CONTACT US</h2>
+            <ul class="landing-pages-ul">
+                <li class="landing-pages-li">Contact Us</li>
+                <li class="landing-pages-li">Help</li>
+                <li class="landing-pages-li">Suggev</li>
+            </ul>
+        </div>
+    </section>
 
-        <!-- FOOTER -->
-        <footer>
-            <div class="footer-container">
-                <p class="footer-c">&copy 2014 Yum Yum. With love by <em class="footer-c-em">Hezy Theme</em></p>
-                <ul class="footer-ul">
-                    <li class="footer-li">Terms</li>
-                    <li class="footer-li">Privacy</li>
-                    <li class="footer-li">Contact Us</li>
-                </ul>
-            </div>
-        </footer>
-    </div>
-
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <p class="footer-c">&copy 2014 Yum Yum. With love by <em class="footer-c-em">Hezy Theme</em></p>
+            <ul class="footer-ul">
+                <li class="footer-li">Terms</li>
+                <li class="footer-li">Privacy</li>
+                <li class="footer-li">Contact Us</li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
